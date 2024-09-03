@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/images/casino-background_2x.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.publish-page {
+    display: flex;
+    background-color: #ffffffb3;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 900px;
+    max-width: 100%;
+}
+
+.upload-section {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0b0;
+    padding: 20px;
+    border-right: 1px solid #e0e0e0;
+    position: relative;
+}
+
+.upload-label {
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-label:hover {
+    background-color: #0056b3;
+}
+
+.upload-input {
+    display: none;
+}
+
+.details-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.input-field,
+.textarea-field {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus,
+.textarea-field:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.textarea-field {
+    height: 150px;
+    resize: none;
+}
+
+.publish-button {
+    background-color: #fcfcfcba;
+    color: green;
+    padding: 15px;
+    border:1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.publish-button:hover {
+    background-color: #218838;
+    color: white;
+    border: none;
+}

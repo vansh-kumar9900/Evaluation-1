@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <style>
+        /* Style the hamburger menu button */
+        .hamburger {
+          cursor: pointer;
+          padding: 10px;
+          border: none;
+          background-color: #333;
+          color: #fff;
+          display: none; /* Hide the hamburger button by default */
+        }
+
+        /* Show the hamburger button when the screen size reaches a certain viewport */
+        @media only screen and (max-width: 768px) {
+          .hamburger {
+            display: block;
+          }
+        }
+
+        /* Style the links container */
+        .links {
+          display: flex;
+          gap: 80px;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        /* Show the links when the hamburger menu button is clicked */
+        .hamburger:focus + .links {
+          display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <nav>
+            <div class="navbar">
+                <button class="hamburger">
+                  <i class="ri-menu-2-line"></i>
+                </button>
+                <div class="img">
+                    <a href="landingpage.html">
+                        <img src="/images/1.png" alt="" >
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="landingpage.html">Home</a>
+                    <a href="signup.html">Sign Up</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="publish.html">Publish</a>
+                    <a href="aboutusss.html">About Us</a>
+                    <a href="cart.html">Cart <i class="ri-shopping-cart-fill"></i></a>
+                </div>
+            </div>
+        </nav>
+        <!-- Rest of your code here -->
+    </div>
+    <script>
+        const hamburgerBtn = document.getElementById('hamburger-btn');
+        const linksContainer = document.getElementById('links-container');
+
+        hamburgerBtn.addEventListener('click', () => {
+          linksContainer.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
