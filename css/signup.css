@@ -7,6 +7,7 @@ html,body{
     width: 100%;
     background-image: url(/images/casino-background_2x.webp);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -23,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    min-height: 500px;
     height: 100vh;
     width: 100%;
 }
@@ -34,6 +35,7 @@ body {
     padding: 15px 0px;
     background-color: white;
     border-radius: 10px;
+    min-width: 500px;
 }
 .signup-container h1{
     display: flex;
