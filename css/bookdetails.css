@@ -1,5 +1,5 @@
 .navbar {
-  /* position: fixed; */
+
   top: 0;
   z-index: 1000;
   display: flex;
@@ -12,8 +12,8 @@
 }
 
 nav .navbar {
-  width: 100%; /* Adjust width if needed */
-  margin: 0 auto; /* Center within the parent container */
+  width: 100%; 
+  margin: 0 auto; 
 }
 
 nav {
@@ -198,12 +198,12 @@ footer {
   height: 100%;
   position: relative;
   overflow: hidden;
-  flex-direction: column; /* Stack elements vertically on smaller screens */
+  flex-direction: column; 
 }
 
 @media (min-width: 768px) {
   .book-details-container {
-    flex-direction: row; /* Revert to horizontal layout on larger screens */
+    flex-direction: row;
   }
 }
 
