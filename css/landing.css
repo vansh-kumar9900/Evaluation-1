@@ -166,7 +166,8 @@ span{
     color: rgba(140, 138, 138, 0.617);
 }
 .signin-btn{
-    margin-top: 30px;display: flex;
+    margin-top: 30px;
+    display: flex;
     justify-content: center;
 }
 .signin-btn button{
@@ -233,8 +234,6 @@ span{
     position: relative;
     z-index: 10;
 }
-
-/* Tablet styles */
 @media screen and (min-width: 768px) {
     .features, .features-2 {
         flex-direction: row;
@@ -361,9 +360,8 @@ span{
     }
 }
 .categories{
-    background-color: rgba(158, 153, 153, 0.363);
+    background-color: rgba(255, 255, 255, 0.363);
     padding: 10px;
-    
 }
 .heading-category{
     display: flex;
